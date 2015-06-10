@@ -3,7 +3,7 @@
 ## Usage:
 
 reference.conf:
-```
+```conf
 environment=dev
 
 server.url="http://server.${environment}.example.com" # IMPORTANT: ${} is *inside* string quotes
