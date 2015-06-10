@@ -1,7 +1,5 @@
 name := """typesafe-config-extension"""
 
-version := "0.1.2"
-
 organization := "com.yetu"
 
 scalaVersion := "2.11.5"
