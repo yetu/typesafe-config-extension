@@ -3,7 +3,7 @@
 ## Usage:
 
 reference.conf:
-```conf
+```
 environment=dev
 
 server.url="http://server.${environment}.example.com" # IMPORTANT: ${} is *inside* string quotes
@@ -15,7 +15,7 @@ environment=prod
 ```
 
 Config.scala
-```
+```scala
 import com.yetu.typesafeconfigextentension.ConfigExtension
 
 object Config extends ConfigExtension {
